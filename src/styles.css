@@ -353,3 +353,38 @@ a {
 
   margin-bottom: 30px;
 }
+.core {
+  position: absolute;
+  inset: 170px;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      #ffffff,
+      #17b1e8 30%,
+      #7b5cff 70%,
+      transparent
+    );
+
+  box-shadow:
+    0 0 40px #17b1e8,
+    0 0 120px #17b1e8,
+    0 0 220px #7b5cff;
+
+  animation: pulse 4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
