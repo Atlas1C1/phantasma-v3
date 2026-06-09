@@ -138,6 +138,34 @@ export default function App() {
         </div>
       </section>
 
+<section className="section">
+  <div className="container">
+
+    <h2>Living Digital Assets</h2>
+
+    <div className="evolution">
+
+      <div className="stage">
+        Level 1
+      </div>
+
+      <div className="arrow">→</div>
+
+      <div className="stage">
+        Level 20
+      </div>
+
+      <div className="arrow">→</div>
+
+      <div className="stage legendary">
+        Legendary
+      </div>
+
+    </div>
+
+  </div>
+</section>
+      
       <section className="section">
         <div className="container">
 
